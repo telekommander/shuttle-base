@@ -1,0 +1,13 @@
+{% extends 'base.twig' %}
+
+{% set title = 'Dashboard'  %}
+{% block title %}{{ title }}{% endblock %}
+
+
+{% block content %}
+
+    <span class="label warning">{{ flash }}</span>
+
+    <h1><img src="assets/img/shuttle.png" /> {{ title }}</h1>
+
+{% endblock %}

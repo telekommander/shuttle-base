@@ -1,0 +1,29 @@
+{
+    "name":         "telekommander/shuttle",
+    "description":  "Simple Slim Framework 3 skeleton with scaffold tool, migrations,Twig,eloquent & Monolog.",
+    "license":      "MIT LICENCE",
+    "type":         "project",
+    "keywords": ["slim3", "slim-framework", "kickstart", "skeleton","auth","console","cli-tool","migration"],
+    "authors": [
+        {
+            "name":     "Thomas Meschke",
+            "email":    "mail@lokalnetz.com",
+            "homepage": "http://lokalnetz.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src"
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "require": {
+        "slim/slim":                    "^3.0",
+        "slim/twig-view":               "^1.1",
+        "slim/flash":                   "^0.1",
+        "monolog/monolog":              "^1.13",
+        "swiftmailer/swiftmailer":      "^5.4"
+    }
+}
