@@ -17,14 +17,16 @@ Just write in your */core/route.php*:
 
     $app->get("/yourroute", "App\\Controller\\YourController:yourroute");
 
-And add the depending function in */src/Controller/HomeController.php/YourController.php*
+And add the depending function in */src/Controller/YourController.php*
 
 	public function yourroute($request, $response, $params)
 	{
 	    // DO SOMETHING
 	}
 
-----------
+Your route looks like this:
+
+    http://localhost/yourroute/
 
 ----------
 
